@@ -4,7 +4,9 @@ function Locations() {
     //const navigate = useNavigate();
 
     return (
-        <div></div>
+        <div>
+            <p>List*****</p>
+        </div>
     );
 }
 

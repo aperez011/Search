@@ -6,3 +6,5 @@ const api = axios.create({
 
 export const GetAll = () => api.get(`/Location/All`)
 export const GetLocationByName = name => api.get(`/Location/${name}`)
+
+export const PostLocation = payload => api.post(`/Location/Add`,payload)
